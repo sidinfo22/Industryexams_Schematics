@@ -12,7 +12,8 @@ body {
     background-color: #f4f6f9;
 }
 header {
-    background-color: #005f99;
+    background: url('bts.jpg');
+    backgroud-size: cover;
     color: #fff;
     padding: 20px 0;
     text-align: center;
