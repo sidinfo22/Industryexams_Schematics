@@ -7,11 +7,7 @@
     background-position: center; /* Centers the image */
     position: relative; /* Allows positioning of child elements */
 }
-#navver {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
+
 #learner {
     border-radius: 0 0 10px 10px; /* Rounded corners only for the bottom */
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Bottom shadow effect */
@@ -213,6 +209,11 @@ body, html, ul, li, h2, p {
     padding: 0 20px;
     background-color: black;
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+#navver {
     position: sticky;
     top: 0;
     z-index: 1000;
