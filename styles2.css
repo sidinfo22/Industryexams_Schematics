@@ -142,11 +142,11 @@
 }
 .viewsite {
     display: inline-block;
-    background-color: #c43434; /* Green color */
+    background-color: #; /* Green color */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    border: 2px solid #c43434; /* Slightly darker green border */
+    border: 2px solid #4bcc32; /* Slightly darker green border */
     border-radius: 5px;
     position: absolute;
     right: 20px; /* Aligns button to the right */
