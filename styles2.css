@@ -767,64 +767,91 @@ body, html {
     to {
         opacity: 1;
     }
-}@media (max-width: 768px) {
+}
+/* Mobile Adjustments for Carousel */
+@media (max-width: 768px) {
     /* Container Adjustments */
     .nethard-carousel-container {
-        padding: 10px; /* Reduce padding for smaller screens */
+        padding: 10px;
     }
 
     /* Main Carousel Slide */
     .nethard-carousel-main {
-        flex-direction: column; /* Stack the slides vertically */
-        height: auto; /* Allow dynamic height based on content */
+        flex-direction: column; /* Stack the content vertically */
+        height: auto;
+        overflow: hidden; /* Hide inactive content */
     }
 
     .nethard-carousel-slide {
+        display: none; /* Hide all slides */
         flex-direction: column; /* Stack image and content vertically */
-        align-items: center; /* Center the items */
-        justify-content: center; /* Center the content */
-        padding: 10px; /* Add some padding for spacing */
-        display: flex; /* Ensure slides are visible when active */
-        text-align: center; /* Center align the text for a clean look */
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nethard-carousel-slide.active {
+        display: flex; /* Show the active slide */
     }
 
     /* Image Adjustments */
     .nethard-carousel-slide img {
-        width: 90%; /* Reduce image size for smaller screens */
-        max-width: 300px; /* Limit max width */
-        margin-bottom: 15px; /* Add space below the image */
+        width: 90%;
+        max-width: 300px;
+        margin-bottom: 15px;
     }
 
     /* Slide Content Adjustments */
     .nethard-slide-content {
-        width: 100%; /* Allow content to take full width */
-        padding: 0; /* Remove unnecessary padding */
+        width: 100%;
+        padding: 0;
     }
 
     .nethard-slide-content h2 {
-        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        font-size: 1.5rem;
     }
 
     .nethard-slide-content p {
-        font-size: 0.9rem; /* Reduce paragraph font size */
+        font-size: 0.9rem;
     }
 
-    /* Learn More Button */
+    /* Button Adjustments */
     .nethard-learn-more-button {
-        font-size: 0.9rem; /* Slightly smaller button text */
-        padding: 8px 15px; /* Adjust button padding */
+        font-size: 0.9rem;
+        padding: 8px 15px;
     }
 
-    /* Carousel Tabs */
+    /* Tabs Container */
     .nethard-carousel-tabs {
-        flex-wrap: nowrap; /* Keep tabs in a single row */
-        overflow-x: auto; /* Allow horizontal scrolling for tabs */
-        gap: 5px; /* Reduce gap between tabs */
+        display: grid; /* Use grid for tab layout */
+        grid-template-columns: repeat(2, 1fr); /* 2 tabs per row */
+        gap: 10px; /* Add spacing between tabs */
+        overflow-x: auto; /* Allow horizontal scrolling if necessary */
+        justify-items: center; /* Center tabs within the grid */
     }
 
     .nethard-tab {
-        font-size: 0.8rem; /* Reduce tab font size */
-        padding: 8px 15px; /* Adjust padding for tabs */
+        font-size: 0.8rem;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        background-color: #f7f7f7;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .nethard-tab.active {
+        background-color: #1cad17;
+        color: white;
+        font-weight: bold;
+    }
+
+    .nethard-tab:hover {
+        background-color: #e0e0e0;
     }
 }
 
