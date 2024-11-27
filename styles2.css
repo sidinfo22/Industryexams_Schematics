@@ -454,7 +454,7 @@ body, html {
     color: rgb(0, 0, 0); /* Dark green text */
     line-height: 1.2;
     letter-spacing: 2px;
-    font-size: 2.4rem; /* Adjust size for heading */
+    font-size: 2.1rem; /* Adjust size for heading */
     font-weight: 700;
     padding: 0 20px; /* Add padding to the left and right of the text */
     margin: 0; /* Remove margin for better alignment */
