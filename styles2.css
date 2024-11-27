@@ -204,12 +204,6 @@ body, html, ul, li, h2, p {
     box-sizing: border-box;
 }
 
-body, html {
-    font-family: 'Arial', sans-serif;
-    color: black;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
-}
-
 /* Navbar */
 .navbar {
     display: flex;
