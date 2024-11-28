@@ -2686,7 +2686,7 @@ height: 60px;
   }
   
  .text-section {
-    flex: 1 1 50%; /* Text takes up 50% width */
+    flex: 1 1; /* Text takes up 50% width */
     overflow-x: hidden;
   }
   @media (max-width: 768px) {
