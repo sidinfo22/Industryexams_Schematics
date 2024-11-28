@@ -2393,7 +2393,7 @@ height: 60px;
 
 @media (max-width: 768px) {
     .page-heading h1 {
-        font-size: 2.2em; /* Adjust font size for smaller screens */
+        font-size: 2.1em; /* Adjust font size for smaller screens */
     }
     .page-heading:before {
         width: 100px;
