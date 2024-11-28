@@ -2685,10 +2685,19 @@ height: 60px;
     gap: 20px; /* Space between columns */
   }
   
-  .text-section {
+ .text-section {
     flex: 1 1 40%; /* Text takes up 50% width */
+    overflow-x: hidden;
   }
-  
+  @media (max-width: 768px) {
+    .text-section {
+        max-width: 50%;
+    }
+  }
+
+  .misser {
+    overflow-x: hidden;
+  }
   .text-section .backp {
     font-size: 16px;
     line-height: 1.6;
