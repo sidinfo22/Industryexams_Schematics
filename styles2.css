@@ -2693,6 +2693,9 @@ height: 60px;
     .text-section {
         max-width: 50%;
     }
+      #commy {
+        font-size: 0.9em;
+    }
   }
 
   .misser {
