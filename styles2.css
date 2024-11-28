@@ -2691,7 +2691,7 @@ height: 60px;
   }
   @media (max-width: 768px) {
     .text-section {
-        max-width: 50%;
+        max-width: 80%;
     }
       #commy {
         font-size: 0.9em;
