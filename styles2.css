@@ -784,6 +784,7 @@ h2.unique-title-34, h2.unique-title-77, h2.unique-title-89, h2.unique-title-52 {
     max-width: 40%; /* Prevent it from exceeding 40% */
     height: auto;
     display: block;
+    margin-bottom: 12px;
     margin: 0 auto;
     border-radius: 10px;
     margin-top: 1rem;
@@ -866,6 +867,9 @@ h2.unique-title-34, h2.unique-title-77, h2.unique-title-89, h2.unique-title-52 {
         margin: 0 auto; /* Remove margins for stacking */
         display: block;
     }
+.php-img-35 {
+    margin-top:12px;
+}
 
     .php-features-35 {
         margin-top: 1rem; /* Add space above the features list */
