@@ -489,7 +489,7 @@ h2.unique-title-34, h2.unique-title-77, h2.unique-title-89, h2.unique-title-52 {
 @media (max-width: 768px) {
     .cloudflare-img-93{
         height: 300px;
-        width: 410px;
+        width: 80%px;
         border-radius: 5px;
         }  
 }
@@ -1689,7 +1689,7 @@ video {
 @media (max-width: 768px) {
 .database-img-71 {
     height: 300px;
-    width: 410px;
+    width: 80%;
     border-radius: 5px;
     display: block;
     margin: 0 auto;
@@ -1699,7 +1699,7 @@ video {
 }
 @media (min-width: 769px) {
     .database-img-71 {
-        height: 439px;
+        height: 300px;
         width: 80%;
         display: block;
         margin: 0 auto;
