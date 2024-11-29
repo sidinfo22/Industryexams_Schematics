@@ -2685,10 +2685,6 @@ height: 60px;
     gap: 20px; /* Space between columns */
   }
   
- .text-section {
-    flex: 1 1; /* Text takes up 50% width */
-    overflow-x: hidden;
-  }
   @media (max-width: 768px) {
       #commy {
         font-size: 0.9em;
