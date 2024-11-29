@@ -1249,8 +1249,7 @@ video {
     place-items: center;
     position: relative;
     margin-top: -26px;
-    display: block;
-    margin: 0 auto:
+      margin-left:41%;
     margin-bottom: 15px;
 }
 
