@@ -1249,13 +1249,12 @@ video {
     place-items: center;
     position: relative;
     margin-top: -26px;
-      margin-left:41%;
+      margin-left:46.5%;
     margin-bottom: 15px;
 }
 @media (max-width: 768px) {
     #joiner {
-        margin-top:5px;
-        margin-left:39%;
+        margin-left:30%;
     }
 }
 
