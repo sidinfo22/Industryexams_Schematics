@@ -1255,7 +1255,8 @@ video {
 
 @media (min-width: 769px) {
     #joiner {
-        margin-left:46.5%;
+        margin-top: 15px;
+        margin-left:48%;
     }
 }
 #learner {
