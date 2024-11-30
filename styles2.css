@@ -2030,7 +2030,7 @@ height: 60px;
         width: 350px; /* Increase the width for desktop view */
         height: 400px; /* Maintain the aspect ratio automatically */
         object-fit: cover; /* Ensures the video content fills the new width proportionally */
-        object-position: center bottom; /* Moves the video downward inside the player */
+        object-position: center top; /* Focuses on the top part of the video */
     }
 }
 
