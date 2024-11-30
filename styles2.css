@@ -72,6 +72,8 @@
     .unique-img-99 {
         height: 150px;
         width: 80%;
+        display: block
+        margin: 0 auto;
     }
     .unique-img-97 {
         height: 150px;
