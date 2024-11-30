@@ -2027,7 +2027,7 @@ height: 60px;
 /* For wider video on desktop */
 @media (min-width: 769px) {
     .video-content video {
-        width: 600px; /* Increase the width for desktop view */
+        width: 400px; /* Increase the width for desktop view */
         height: auto; /* Maintain the aspect ratio automatically */
         object-fit: cover; /* Ensures the video content fills the new width proportionally */
     }
