@@ -2060,7 +2060,6 @@ height: 60px;
     .video-content video {
         width: 90%; /* Reduce to 90% of the container's width */
         max-width: 400px; /* Limit the maximum width */
-        max-width: 45%;
         height: 450px; /* Maintain aspect ratio */
         aspect-ratio: 4 / 3; /* Keeps a horizontal layout for the video box */
     }
