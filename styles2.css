@@ -2017,9 +2017,9 @@ height: 60px;
 }
 
 .video-content video {
-    width: 400px; /* Fixed width */
-    height: 350px; /* Fixed height */
-    object-fit: fill; /* Ensures the video content fits perfectly */
+   max-width: 100%; /* Video scales responsively up to its container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: fill; /* Keep the video content proportional */
     border: 10px solid black; /* Black border for the picture frame look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Adds shadow for depth */
     border-radius: 5px; /* Subtle rounding for a modern touch */
