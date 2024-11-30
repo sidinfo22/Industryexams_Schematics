@@ -1472,12 +1472,13 @@ video {
     align-items: center;
     height: 80px;
     padding: 0 20px;
-    background-color: rgba(0, 0, 0, 0.8); /* Black with 80% opacity */
+    background-color: black;
     color: white;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
+
 
 
 .navbar-left img.logo {
