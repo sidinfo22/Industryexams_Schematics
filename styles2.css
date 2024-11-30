@@ -2714,7 +2714,23 @@ height: 60px;
     text-align: center;
     padding: 20px;
   }
+  .carousel-item-mission img {
+    width: 380px;
+    height: 300px;
+    object-fit: cover; /* Ensures uniform size while maintaining aspect ratio */
+    border-radius: 10px !important; /* Rounded corners */
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
   @media (max-width: 768px) {
+          .carousel-item-mission img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover; /* Ensures uniform size while maintaining aspect ratio */
+        border-radius: 10px !important; /* Rounded corners */
+        margin-bottom: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
     .purpose-section-mission {
       display: flex; /* Enable flexbox */
       flex-direction: column; /* Stack content vertically */
@@ -2869,35 +2885,11 @@ height: 60px;
         max-width: 250px; /* Limit the width to 250px on smaller screens */
         height: auto; /* Maintain aspect ratio */
     }
-    .carousel-item-mission img {
-        width: 300px;
-        height: 300px;
-        object-fit: cover; /* Ensures uniform size while maintaining aspect ratio */
-        border-radius: 5px !important; /* Rounded corners */
-        margin-bottom: 10px;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
   }
   
 .netinfer {
     overflow-x: hidden;
 }
-  
-  .carousel-item-mission {
-    flex: 0 0 100%;
-    max-width: 450px;
-    min-height: 340px; /* Ensures the container adjusts height for both image and text */
-    text-align: center;
-    padding: 20px;
-  }
-  .carousel-item-mission img {
-    width: 380px;
-    height: 300px;
-    object-fit: cover; /* Ensures uniform size while maintaining aspect ratio */
-    border-radius: 10px !important; /* Rounded corners */
-    margin-bottom: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
   .cta-button-mission {
   display: inline-block;
   padding: 15px 35px;
