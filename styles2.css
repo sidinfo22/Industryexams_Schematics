@@ -518,7 +518,7 @@ h2.unique-title-34, h2.unique-title-77, h2.unique-title-89, h2.unique-title-52 {
 @media (max-width: 768px) {
     .cloudflare-img-93{
         height: 300px;
-        width: 90%;
+        width: 100%;
         border-radius: 5px;
         display: block;
         margin: 0 auto;
@@ -526,7 +526,7 @@ h2.unique-title-34, h2.unique-title-77, h2.unique-title-89, h2.unique-title-52 {
 }
 @media (min-width: 769px) {
 .cloudflare-img-93{
-    height: 250px;
+    height: 300px;
     width: 75%;
     overflow: hidden;
     border-radius: 5px;
@@ -1725,7 +1725,7 @@ video {
 @media (max-width: 768px) {
 .database-img-71 {
     height: 250px;
-    width: 90%;
+    width: 100%;
     border-radius: 5px;
     display: block;
     margin: 0 auto;
@@ -1735,7 +1735,7 @@ video {
 }
 @media (min-width: 769px) {
     .database-img-71 {
-        height: 300px;
+        height: 400px;
         width: 80%;
         display: block;
         margin: 0 auto;
