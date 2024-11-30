@@ -8,11 +8,14 @@
     position: relative; /* Allows positioning of child elements */
 }
 .menu-list a.active {
-  background-color: #f0f0f0; /* Light gray background for subtle effect */
+  background-color: #f0f0f0; /* Light gray for subtle effect */
   box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2); /* Creates the pushed-in look */
-  border-radius: 4px; /* Smooth edges for a polished appearance */
-  padding: 5px; /* Adds a little spacing for the effect */
+  border-radius: 4px; /* Smooth edges */
+  padding: 12px 15px; /* Slightly increase vertical padding for more height */
+  display: inline-block; /* Ensures consistent box sizing */
+  margin-top: -2px; /* Adjusts positioning for better alignment with other tabs */
 }
+
 
 
 @media (max-width: 768px) {
