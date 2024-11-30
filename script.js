@@ -341,3 +341,13 @@ document.addEventListener("DOMContentLoaded", function () {
     // Start the sequence
     startShaking();
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const currentPath = window.location.pathname.split("/").pop(); // Get the current page filename
+  const menuItems = document.querySelectorAll(".menu-list a"); // Select all links in the menu
+
+  menuItems.forEach(item => {
+    if (item.getAttribute("href") === currentPath) {
+      item.classList.add("active"); // Add the 'active' class to the matching link
+    }
+  });
+});
