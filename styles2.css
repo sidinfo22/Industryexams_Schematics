@@ -14,7 +14,7 @@
   width: 100%; /* Ensures the full width of the tab is covered */
   height: 100%; /* Ensures the full height of the tab is covered */
   display: inline-block; /* Makes the tab's content behave like a block */
-  padding: inherit; /* Inherit padding from existing tabs for consistency */
+  padding: 12px 15px; /* Inherit padding from existing tabs for consistency */
   text-align: center; /* Center the text, if necessary */
   box-sizing: border-box; /* Ensures padding and border do not affect dimensions */
 }
