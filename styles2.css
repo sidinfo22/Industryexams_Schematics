@@ -7,6 +7,11 @@
     background-position: center; /* Centers the image */
     position: relative; /* Allows positioning of child elements */
 }
+
+.lp {
+    margin-bottom:10px;
+}
+
 .menu-list a.active {
   background-color: #f0f0f0; /* Light gray to highlight the active tab */
   box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2); /* Pushed-in effect */
