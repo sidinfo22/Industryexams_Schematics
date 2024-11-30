@@ -2018,7 +2018,7 @@ height: 60px;
 
 .video-content video {
    max-width: 100%; /* Video scales responsively up to its container width */
-    height: auto; /* Maintain aspect ratio */
+    height: 325px; /* Maintain aspect ratio */
     object-fit: fill; /* Keep the video content proportional */
     border: 10px solid black; /* Black border for the picture frame look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Adds shadow for depth */
