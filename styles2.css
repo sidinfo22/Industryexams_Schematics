@@ -67,14 +67,16 @@
         padding: 0 40px;
     }
 }
-@media (max-width:768px) {
-
+@media (max-width: 768px) {
     .unique-img-99 {
         height: 150px;
         width: 80%;
-        display: block
+        display: block;
         margin: 0 auto;
+        text-align: center; /* Center-align text and image */
     }
+}
+
     .unique-img-97 {
         height: 150px;
         width: 80%;
