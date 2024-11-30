@@ -248,7 +248,7 @@ h2.unique-title-34, h2.unique-title-77, h2.unique-title-89, h2.unique-title-52 {
     width: 80%;
     margin-bottom: 16px;
     margin-left: 30px;
-    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7); /* Subtle initial glow */
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8); /* Stronger initial glow */
     animation: glow-shake 3s infinite; /* Continuous glow and shake animation */
 }
 
@@ -256,22 +256,24 @@ h2.unique-title-34, h2.unique-title-77, h2.unique-title-89, h2.unique-title-52 {
 @keyframes glow-shake {
     0%, 100% {
         transform: translate(0, 0); /* Start and end at the original position */
-        box-shadow: 0 0 5px rgba(255, 0, 0, 0.5); /* Subtle glow */
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.6); /* Subtle glow */
     }
     25% {
         transform: translate(-1px, -1px); /* Slight shake to top-left */
-        box-shadow: 0 0 8px rgba(255, 0, 0, 0.6); /* Slightly stronger glow */
+        box-shadow: 0 0 15px rgba(255, 0, 0, 0.8); /* Stronger glow */
     }
     50% {
         transform: translate(1px, 1px); /* Slight shake to bottom-right */
-        box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); /* Peak glow */
+        box-shadow: 0 0 20px rgba(255, 0, 0, 1); /* Peak glow */
     }
     75% {
         transform: translate(-0.5px, 0.5px); /* Barely noticeable shake back */
-        box-shadow: 0 0 8px rgba(255, 0, 0, 0.6); /* Fading glow */
+        box-shadow: 0 0 15px rgba(255, 0, 0, 0.8); /* Fading glow */
     }
 }
 
+
+/*
 
 @keyframes shake {
     0% { transform: translateX(0); }
