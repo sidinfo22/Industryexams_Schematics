@@ -187,23 +187,25 @@ h2.unique-title-34, h2.unique-title-77, h2.unique-title-89, h2.unique-title-52 {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-.unique-img-99 {
-    height: 150px;
-    width: 30%;
-}
+
 .unique-img-98 {
     height: 80px;
     width: 80px;
     margin-bottom: 10px;
     margin-left: 10px;
 }
+
+@media (min-width: 769px) {
 .unique-img-97 {
    height: 150px;
    width: 25%;
     margin-bottom: 18px;
+    text-align: center;
+    place-items: center;
+    display: block;
+    margin: 0 auto;
 }
-
+}
 .webdev-content-52 img {
     text-align: center;
     place-items: center;
@@ -217,16 +219,10 @@ h2.unique-title-34, h2.unique-title-77, h2.unique-title-89, h2.unique-title-52 {
     place-items: center;
     display: block;
     margin: 0 auto;
-
+    height: 150px;
+    width: 30%;
 }
 
-.unique-img-97  {
-    text-align: center;
-    place-items: center;
-    display: block;
-    margin: 0 auto;
-
-}
 /* Images */
 .unique-img-34, .unique-img-77, .unique-img-89, .unique-img-52 {
     max-width: 100%;
