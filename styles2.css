@@ -7,6 +7,14 @@
     background-position: center; /* Centers the image */
     position: relative; /* Allows positioning of child elements */
 }
+.menu-list a.active {
+  background-color: #f0f0f0; /* Light gray background for subtle effect */
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2); /* Creates the pushed-in look */
+  border-radius: 4px; /* Smooth edges for a polished appearance */
+  padding: 5px; /* Adds a little spacing for the effect */
+}
+
+
 @media (max-width: 768px) {
   .feedback-left {
     width: 90%; /* Responsive width */
