@@ -1466,14 +1466,13 @@ video {
     z-index: 9999;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
     padding: 0 20px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8); /* Black with 80% opacity */
     color: white;
     position: sticky;
     top: 0;
