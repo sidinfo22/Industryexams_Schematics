@@ -248,11 +248,30 @@ h2.unique-title-34, h2.unique-title-77, h2.unique-title-89, h2.unique-title-52 {
     width: 80%;
     margin-bottom: 16px;
     margin-left: 30px;
+    box-shadow: 0 0 15px red; /* Initial glow */
+    animation: glow-shake 2s infinite; /* Continuous glow and shake animation */
 }
-.unique-img-89:hover {
-    box-shadow: 0 0 15px red;
-    animation: shake 0.5s ease-in-out;
+
+/* Define the continuous glow and shake animation */
+@keyframes glow-shake {
+    0%, 100% {
+        transform: translate(0, 0); /* Start and end at the original position */
+        box-shadow: 0 0 15px red; /* Glow */
+    }
+    25% {
+        transform: translate(-2px, -2px); /* Slight shake to top-left */
+        box-shadow: 0 0 20px red; /* Slightly stronger glow */
+    }
+    50% {
+        transform: translate(2px, 2px); /* Slight shake to bottom-right */
+        box-shadow: 0 0 25px red; /* Peak glow */
+    }
+    75% {
+        transform: translate(-1px, 1px); /* Gentle shake back */
+        box-shadow: 0 0 20px red; /* Fading glow */
+    }
 }
+
 
 @keyframes shake {
     0% { transform: translateX(0); }
