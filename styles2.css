@@ -8,12 +8,15 @@
     position: relative; /* Allows positioning of child elements */
 }
 .menu-list a.active {
-  background-color: #f0f0f0; /* Light gray for subtle effect */
-  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2); /* Creates the pushed-in look */
-  border-radius: 4px; /* Smooth edges */
-  padding: 12px 15px; /* Slightly increase vertical padding for more height */
-  display: inline-block; /* Ensures consistent box sizing */
-  margin-top: -2px; /* Adjusts positioning for better alignment with other tabs */
+  background-color: #f0f0f0; /* Light gray to highlight the active tab */
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2); /* Pushed-in effect */
+  border-radius: 4px; /* Smooth edges for the active tab */
+  width: 100%; /* Ensures the full width of the tab is covered */
+  height: 100%; /* Ensures the full height of the tab is covered */
+  display: inline-block; /* Makes the tab's content behave like a block */
+  padding: inherit; /* Inherit padding from existing tabs for consistency */
+  text-align: center; /* Center the text, if necessary */
+  box-sizing: border-box; /* Ensures padding and border do not affect dimensions */
 }
 
 
