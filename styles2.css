@@ -248,7 +248,7 @@ h2.unique-title-34, h2.unique-title-77, h2.unique-title-89, h2.unique-title-52 {
     width: 80%;
     margin-bottom: 16px;
     margin-left: 30px;
-    box-shadow: 0 0 5px rgba(255, 0, 0, 0.7); /* Subtle initial glow */
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7); /* Subtle initial glow */
     animation: glow-shake 3s infinite; /* Continuous glow and shake animation */
 }
 
