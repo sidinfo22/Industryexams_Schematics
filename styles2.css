@@ -1234,7 +1234,7 @@ video {
 .sectiontitle2 {
     color: #1cad17;
     font-size: 2.5rem;
-    font-weigt: bold;
+    font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
     margin-bottom: 20px;
 }
@@ -1340,9 +1340,6 @@ video {
 }
 
 
-#networkinf {
-    margin-top: -20x;
-}
 
 @media (min-width: 769px) {
     .netpara {
@@ -2744,7 +2741,7 @@ height: 60px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     z-index: 1;
       overflow-x: hidden;
-      max-width: 100ww;
+      max-width: 100vw;
   }
   
   .background-content {
