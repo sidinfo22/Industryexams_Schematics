@@ -2694,19 +2694,7 @@ height: 60px;
     align-items: center;          /* Center horizontally */
     justify-content: center;      /* Center vertically if needed */
   }
-  
-  @media (max-width: 768px) {
-    .carousel-container-mission {
-        display: flex;
-        overflow: hidden;            /* Retains hidden overflow */
-        scroll-behavior: smooth;     /* Retains smooth scrolling */
-        justify-content: space-evenly; /* Spaces items evenly across the container */
-        align-items: center;          /* Aligns items vertically */
-        gap: 20px;                    /* Adds consistent spacing between items */
-        flex-wrap: wrap;              /* Allows wrapping for responsiveness */
-        width: 90%;                  /* Ensures full-width container */
-      }
-  }
+
   .carousel-container-mission {
     display: flex;
     overflow: hidden;            /* Retains hidden overflow */
@@ -2885,19 +2873,10 @@ height: 60px;
         width: 300px;
         height: 300px;
         object-fit: cover; /* Ensures uniform size while maintaining aspect ratio */
-        border-radius: 10px !important; /* Rounded corners */
+        border-radius: 5px !important; /* Rounded corners */
         margin-bottom: 10px;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
       }
-  }
-  .carousel-section-mission {
-    padding: 40px 20px;
-    background: #f7f7f7;
-    text-align: center;
-    display: flex;                /* Enable flexbox for centering */
-    flex-direction: column;       /* Stack heading and carousel vertically */
-    align-items: center;          /* Center horizontally */
-    justify-content: center;      /* Center vertically if needed */
   }
   
 .netinfer {
