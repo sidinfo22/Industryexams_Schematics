@@ -19,7 +19,9 @@
   box-sizing: border-box; /* Ensures padding and border do not affect dimensions */
 }
 
-
+#php-title-52 {
+    padding: 0 15px;
+}
 
 @media (max-width: 768px) {
   .feedback-left {
