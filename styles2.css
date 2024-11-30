@@ -2844,7 +2844,7 @@ height: 60px;
         width: 300px;
         height: 300px;
         object-fit: cover; /* Ensures uniform size while maintaining aspect ratio */
-        border-radius: 10px; /* Rounded corners */
+        border-radius: 10px !important; /* Rounded corners */
         margin-bottom: 10px;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
       }
@@ -2874,7 +2874,7 @@ height: 60px;
     width: 380px;
     height: 300px;
     object-fit: cover; /* Ensures uniform size while maintaining aspect ratio */
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px !important; /* Rounded corners */
     margin-bottom: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
