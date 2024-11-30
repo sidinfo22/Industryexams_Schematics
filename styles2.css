@@ -2018,7 +2018,7 @@ height: 60px;
 
 .video-content video {
    max-width: 100%; /* Video scales responsively up to its container width */
-    height: 300px; /* Maintain aspect ratio */
+    height: 400px; /* Maintain aspect ratio */
     object-fit: fill; /* Keep the video content proportional */
     border: 10px solid black; /* Black border for the picture frame look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Adds shadow for depth */
@@ -2027,8 +2027,8 @@ height: 60px;
 /* For wider video on desktop */
 @media (min-width: 769px) {
     .video-content video {
-        width: 400px; /* Increase the width for desktop view */
-        height: 300px; /* Maintain the aspect ratio automatically */
+        width: 325px; /* Increase the width for desktop view */
+        height: 400px; /* Maintain the aspect ratio automatically */
         object-fit: cover; /* Ensures the video content fills the new width proportionally */
     }
 }
