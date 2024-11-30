@@ -344,7 +344,7 @@ h2.unique-title-34, h2.unique-title-77, h2.unique-title-89, h2.unique-title-52 {
 /* Adjust arrows for mobile */
 @media (max-width: 768px) {
     .carousel-buttons-34 {
-        top: 40%; /* Move the arrows higher in the carousel */
+        top: 30%; /* Move the arrows higher in the carousel */
     }
      .carousel-button-34 {
         padding: 0.3rem 0.8rem; /* Reduce size for smaller screens */
