@@ -2,7 +2,7 @@
     background: url('bts2.jpg');
     background-size: cover;
     width: 100%;
-    height: 680px;
+    height: 720px;
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the image */
     position: relative; /* Allows positioning of child elements */
@@ -815,7 +815,7 @@ h2.unique-title-34, h2.unique-title-77, h2.unique-title-89, h2.unique-title-52 {
     max-width: 40%; /* Prevent it from exceeding 40% */
     height: auto;
     display: block;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     margin: 0 auto;
     border-radius: 10px;
     margin-top: 1rem;
